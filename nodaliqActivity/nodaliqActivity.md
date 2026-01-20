@@ -1,4 +1,4 @@
-![NodaliQ Logo](nodaliqActivity.svg)
+![NodaliQ Logo](nodaliqActivity/nodaliqActivity.svg)
 
 # NodaliQ Activity
 
