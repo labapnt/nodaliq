@@ -1,4 +1,64 @@
+![NodaliQ Logo](nodaliqActivity.svg)
+
 # NodaliQ Activity
+
+## About NodaliQ
+
+**NodaliQ**, powered by Tokalabs SDL Basic, is a unified intelligence layer for modern network test labs. It combines SDL's proven orchestration capabilities with NodaliQ's AI-driven insight and automation, transforming lab operations from manual scheduling and topology management to proactive detection, guided troubleshooting, and autonomous resolution.
+
+### Key Features
+
+- **Single Pane of Glass**: Access all lab management functions through one intuitive interface — no context switching required
+- **AI-Driven Lab Management**: Intelligent assistance that acts as a virtual lab administrator, available 24/7
+- **Unified Orchestration**: Seamless integration with Tokalabs SDL Basic for lab resource orchestration
+- **Policy-Based Access Control**: Full user and policy management with enforcement and auditability
+- **Inventory Management**: Discover, add, and manage network devices and traffic generators
+- **Topology (Sandbox) Creation**: Create, view, and edit device topologies with basic linkage
+- **Smart Reservations**: Schedule in advance or reserve on-demand with conflict detection and extension capabilities
+
+### Value Proposition
+
+NodaliQ serves as a virtual lab administrator that:
+- Automates routine lab operations and reduces manual administrative overhead
+- Proactively identifies configuration and performance issues
+- Accelerates time-to-test by simplifying setup and reservation processes
+- Scales effortlessly as lab needs grow, with a seamless upgrade path to the full SDL stack
+
+---
+
+## Examples of Usage
+
+### Example 1: Network Device Testing Workflow
+A network engineer needs to test a new router configuration:
+1. **Discover Inventory**: Search the inventory catalog for available router devices matching the required specifications
+2. **Create Topology**: Build a test topology connecting the router to traffic generators and other network devices
+3. **Reserve Resources**: Schedule a reservation for the topology, ensuring availability for the testing window
+4. **Run Test Cases**: Execute pre-configured test cases to validate router performance and configuration
+5. **Analyze Results**: Review test results and generate reports for documentation
+
+### Example 2: Proof-of-Concept Lab Setup
+A development team is evaluating a new network protocol:
+1. **Quick Reservation**: Use on-demand reservation to quickly allocate a small test topology
+2. **Topology Configuration**: Configure a simple topology with network devices and traffic generators
+3. **Iterative Testing**: Run multiple test iterations, extending reservations as needed
+4. **Collaborative Access**: Team members can view and manage shared reservations through policy-based access
+
+### Example 3: Scheduled Regression Testing
+A QA team needs to run regular regression tests:
+1. **Advance Scheduling**: Schedule recurring reservations for weekly regression test cycles
+2. **Topology Reuse**: Clone existing topologies for consistent test environments
+3. **Automated Execution**: Run test suites automatically on reserved topologies
+4. **Report Generation**: Generate comprehensive test reports for each regression cycle
+
+### Example 4: Multi-User Lab Environment
+A lab administrator manages resources for multiple teams:
+1. **User Management**: Create user accounts and assign roles with appropriate quotas and policies
+2. **Policy Enforcement**: Configure policies to control resource usage, reservation duration, and topology complexity
+3. **Resource Monitoring**: Monitor reservation conflicts and resource utilization across teams
+4. **Audit Trail**: Review audit logs to track user activities and policy compliance
+
+---
+
 This NodaliQ Activity describes the detailed steps of finding resources and Topologies, placing reservation, conducting a test, and viewing the results. 
 This NodaliQ Activity is intended for users who are new to the system. 
 
@@ -130,7 +190,9 @@ The Loopback Traffic Test Topology is designed to test network connectivity and 
 
 ### Topology Diagram
 
-![Looback Topology](nodaliqActivity/test.jpeg)
+![Loopback Topology](nodaliqActivity/nodaliqActivity.svg)
+
+*Note: Topology diagrams and visual representations are available in the NodaliQ interface when viewing topology details.*
 
 
 ### Topology Details
