@@ -1,7 +1,7 @@
 {
    "name":"NodaliQ Activity",
    "shortDescription": "NodaliQ Activity introduces an overview of a user workflow.",
-   "icon":"nodaliqActivity/nodaliqActivity.svg",
+   "icon":"nodaliqActivity/nodaliqActivity.jpg",
    "descriptionMarkdown":"nodaliqActivity/nodaliqActivity.md",
    "topology": [{
       "name": "Loopback Traffic Test",
