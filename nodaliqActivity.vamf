@@ -1,0 +1,13 @@
+{
+   "name":"NodaliQ Activity",
+   "shortDescription": "NodaliQ Activity introduces an overview of a user workflow.",
+   "icon":"nodaliqActivity/nodaliqActivity.svg",
+   "descriptionMarkdown":"nodaliqActivity/nodaliqActivity.md",
+   "topology": [{
+      "name": "Loopback Traffic Test",
+      "actionTitle":"Reserve",
+      "description": "This is a simple loopback traffic with Spirent Test Center VM.",
+      "reservationDuration":"30"
+    }]
+}
+
